@@ -45,3 +45,23 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 observer.observe(gamesSection);
+
+const bookBtn = document.getElementById("bookBtn");
+const phone = document.getElementById("phone");
+
+bookBtn.addEventListener("click", () => {
+
+    setTimeout(() => {
+        phone.classList.remove("highlight");
+
+        // Restart animation
+        void phone.offsetWidth;
+
+        phone.classList.add("highlight");
+
+        setTimeout(() => {
+            phone.classList.remove("highlight");
+        }, 5000);
+
+    }, 600); // Wait for smooth scroll to finish
+});

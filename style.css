@@ -236,6 +236,13 @@ nav a:hover{
     text-align:center;
 
 }
+.game-card h4{
+
+    margin-top:150px;
+
+    text-align:bottom;
+
+}
 .game-card{
 
     animation:float 4s ease-in-out infinite;
@@ -324,4 +331,20 @@ transform:translateY(0);
 
 }
 
+}
+.phone.highlight{
+    color:#ffffff;
+    background:#153899;
+    padding:10px 20px;
+    border-radius:10px;
+    animation:pulse .8s infinite;
+}
+
+@keyframes pulse{
+    0%,100%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.08);
+    }
 }
