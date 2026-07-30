@@ -237,8 +237,8 @@ nav a:hover{
 
 }
 .game-card h4{
-
-    margin-top:150px;
+    font-size:25px;
+    margin-top:100px;
 
     text-align:bottom;
 
@@ -347,4 +347,45 @@ transform:translateY(0);
     50%{
         transform:scale(1.08);
     }
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.pricing-card{
+    width: 320px;
+    padding: 30px;
+
+    background: #161b22;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,.08);
+
+    box-sizing: border-box;
+}
+.badge{
+    position:absolute;
+    top:-12px;
+    right:20px;
+
+    background:#0070d1;
+    color:white;
+
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:.8rem;
+    font-weight:bold;
+}
+.price{
+    font-size:2rem;
+    font-weight:bold;
+    color:#0070d1;
+    margin:10px 0;
+}
+.pricing-action{
+    margin-top:40px;
+    text-align:center;
 }
